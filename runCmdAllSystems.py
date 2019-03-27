@@ -28,6 +28,9 @@ for system in systemlist:
             output.append(systeminfo)
 
 
+for line in output:
+    print(line)
+
 client.auth.logout(key)
 
 
